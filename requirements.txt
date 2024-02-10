@@ -1,0 +1,7 @@
+apache-airflow
+beautifulsoup4
+fastapi 
+requests 
+selenium==4.0.0
+webdriver-manager==4.0.1
+pymongo
