@@ -1,1 +1,1 @@
-# simple_data_pipeline-
+# A data pipeline for reading news: Too lazy to document 
