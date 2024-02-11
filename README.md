@@ -1,14 +1,15 @@
 # A data pipeline for reading news 
 
 ## About 
-The data is crawled in real-time at [VNEXPRESS](https://e.vnexpress.net/)
+The data is crawled in real-time at [VNEXPRESS](https://e.vnexpress.net/)\
 Once the service starts, the data crawled from the website will be streamed to a Kafka topic, then stored in a MongoDB database, and then streamed back again to Kafka for API usage: See the number of articles each day 
 
 ## Requirement: 
 WSL/ Device running on Linux\
 A Confluent account: Create a cluster -> a new environment -> a topic and a key for access. [Reference](https://developer.confluent.io/get-started/python/)\
 A MongoDB account: Create a cluster -> A database to connect. [Reference](https://www.mongodb.com/languages/python)\
-A Ngrok account: Making your API accessible everywhere: Create an account and endpoint
+A Ngrok account: Making your API accessible everywhere: Create an account and endpoint\
+Take the necessary credentials and put them into the .env file 
 
 ## How-to 
 Create a virtual environment(python==3.9)\
