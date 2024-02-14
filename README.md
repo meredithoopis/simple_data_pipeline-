@@ -33,7 +33,7 @@ ngrok http 8000
 and go to the website to see the publicly available API 
 
 ### Running Airflow for all: 
-Install and set up Airflow: [Airflow](https://www.restack.io/docs/airflow-knowledge-apache-ubuntu-install-server-22-04-20-04-18-04) (Make sure to put the dags folder in the Airflow config file)\ 
+Install and set up Airflow: [Airflow](https://www.restack.io/docs/airflow-knowledge-apache-ubuntu-install-server-22-04-20-04-18-04) (Make sure to put the dags folder in the Airflow config file)
 
 Open a terminal and run: 
 ```bash 
