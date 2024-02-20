@@ -3,6 +3,7 @@ A data pipeline for reading news
 
 The data is crawled in real-time at [VNEXPRESS](https://e.vnexpress.net/)\
 Once the service starts, the data crawled from the website will be streamed to a Kafka topic, then stored in a MongoDB database, and then streamed back again to Kafka for API usage: See the number of articles each day. 
+This project is done without Docker
 
 ### Requirements 
 - WSL/ Device running on Linux
